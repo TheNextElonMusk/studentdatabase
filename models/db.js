@@ -2,7 +2,7 @@ require('./student.model');
 
 var mongoose = require('mongoose');
 mongoose.connect(
-  'mongodb://127.0.0.1:27017/studentdatabase',
+  'mongodb+srv://TheNextElonMusk:1234@cluster0.uz3j8sr.mongodb.net/test',
  {
   useNewUrlParser: true
  },
